@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 50px;
+        background-color: white;
+    }
+    .navbar .logo img{
+        height: 100px;
+    }
+    .navbar .navlinks{
+        display: flex;
+        gap: 30px;
+    }
+    .navbar .navlinks a{
+        text-decoration: none;
+        color: rgb(5, 5, 5);
+        font-size: 18px;
+        font-weight: 500;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .navbar .create-account{
+        background-color: #357edd;
+        color: white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        cursor:pointer;
+        border: none;
+        font-size: 16px;
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../Logo1.PNG" alt="Appointease Logo">
+        </div>
+        <div class="navlinks">
+            <a href="../Home/home.html">Home</a>
+            <a href="../index.html">About Us</a>
+            <a href="../All Doctors/doctor.html">All Doctors</a>
+            <a href="../Contact Us/contact.html">Contact Us</a>
+        </div>
+        <button class="create-account">Create Account</button>
+    </nav>
+</body>
+</html>
