@@ -12,8 +12,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding: 1px 12px;
     background-color: white;
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
 }
 .navbar .logo img{
     height: 100px;
@@ -39,49 +43,97 @@ body{
     font-size: 16px;
 }
 .home-box {
-background-color: #3a7ec7; /* Blue background */
-color: rgb(255, 255, 255); /* White text */
-height: 369px;
-border-radius: 10px; /* Rounded corners */
+background-color: #3573b5;
+height: 36.5em;
+ color: rgb(255, 255, 255);
+/*height: 369px;
+margin-left:134px;
+border-radius: 10px;
 align-items: center;
-/* justify-content: space-between;  */
-flex-wrap: wrap; /* Ensures responsiveness */
+flex-wrap: wrap; */
 }
 
 .home-box img {
-height: 330px;
-width: 530px;
+height: 632px;
+width: 927px;
 display: flex;
 float: right;
-/* margin-right: 218px; */
-margin-top: 35px;
-}
+margin-top: -48px;
+} 
 .home-box h1{
-margin-left: 100px;
-margin-top: 95px;
+    margin-left: 57px;
+    margin-top: -474px;
 float: left;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size:44px;
-margin-bottom: 35px;
+font-size:64px;
+margin-bottom: 5px;
 }
 .home-box p {
     font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 99px;
-    max-width: 400px; /* Keep the text in a readable width */
+    margin-bottom: -1px;
+    margin-left: 65px;
+    max-width: 400px;
+    padding-top: 283px;
 }
 .home-box button {
-    margin-left: 100px;
-    margin-top: 15px;
-    padding: 10px 20px;
+    margin-left: 71px;
+    margin-top: 34px;
+    margin-bottom: 35px;
+    padding: 20px 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #f5f5f5; /* Yellow button */
-    color: #333; /* Dark text */
+    background-color: #f5f5f5; 
+    color: #333; 
     border: none;
     border-radius: 15px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
+} 
+.home-box button:hover{
+    background-color: rgb(34, 159, 34);
+    color: white;
+    border-radius:0px;
+}
+.speciality h2{
+    text-align: center;
+    margin-top: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.speciality p{
+    text-align: center;
+    margin-top: 1em;
+}
+.expert{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    padding-top: 4em;
+}
+.expert img{
+    height: 108px;
+    width: 108px;
+}
+.expert img:hover{
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2.2rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+.Expertname{
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+    padding-top: 1em;
 }

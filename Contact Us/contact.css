@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: white;
+}
+.navbar .logo img{
+    height: 100px;
+}
+.navbar .navlinks{
+    display: flex;
+    gap: 30px;
+}
+.navbar .navlinks a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar .create-account{
+    background-color: #357edd;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor:pointer;
+    border: none;
+    font-size: 16px;
+}
