@@ -22,7 +22,10 @@ body{
     color: rgb(5, 5, 5);
     font-size: 18px;
     font-weight: 500;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar .navlinks a:hover{
+    color:#1d548e;
 }
 .navbar .create-account{
     background-color: #357edd;
@@ -32,4 +35,70 @@ body{
     cursor:pointer;
     border: none;
     font-size: 16px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left:72px ;
+    margin-right: 72px;
+    gap: 20px;
+}
+.column1{
+    width: 452px;
+    padding-top: 22px;
+}
+.column1 img{
+    height: 94px;
+    width: 119px;
+}
+.column1 p{
+    padding-top: 16px;
+    color: rgba(255, 255, 255, 0.722);
+}
+.column2{
+    width: 582px;
+    padding-top: 22px;
+}
+.column2 .detail{
+    margin-top:46px;
+    color: rgba(255, 255, 255, 0.722);
+}
+.column2 h2{
+    color: white;
+}
+.column3{padding-top: 22px;}
+.column3 h2{
+    color: white;
+}
+.column3 .link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 46px;
+    gap: 9px; 
+}
+.link a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.722);
+    cursor: pointer;
+}
+hr{
+    /* padding-top: 16px; */
+    margin-top: 77px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-bottom{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-text p{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+.foot{
+    background-color: #0a1a3aba;
+    margin-top: 42px;
 }
