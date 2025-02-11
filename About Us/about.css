@@ -7,7 +7,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right:50px;
     background-color: white;
 }
 .navbar .logo img{
@@ -36,6 +38,196 @@ body{
     border: none;
     font-size: 16px;
 }
+
+.about{
+    text-align: center;
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.banner{
+    padding-top: 7pc;
+}
+.banner h1{
+    color: white;
+}
+.banner a{
+    text-decoration: none;
+    color: white;
+}
+.banner .about{
+    color: rgb(34, 159, 34);
+}
+
+.block-2{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 114px;
+}
+.block-2 .left-side{
+    width: 50%;
+    margin: 55px 4px 26px 49px;
+}
+.container{
+    position: relative;
+    width: 427px;
+    margin: 31px 13px 39px 20px;
+}
+.image-stack{
+    position: relative;
+}
+.image-main{
+    width: 90%;
+    display: block;
+}
+.image-overlay{
+    position: absolute;
+    width: 60%;
+    bottom: -30px;
+    top: 17pc;
+    left: 9pc;
+    border: 5px solid white;
+}
+.experience-box{
+    position: absolute;
+    top: 6pc;
+    left: 17pc;
+    background-color: #86B15D;
+    color: white;
+    /* padding: 1px 0 0 0 ; */
+    border-radius: 5px;
+    /* text-align: center; */
+    width: 50%;
+    height: 15pc;
+}
+
+.experience-box h2{
+    font-size: 37px;
+    font-weight: bold;
+    margin: 26px 12px 0 16px;
+}
+.experience-box p{
+    font-size:28px;
+    font-weight: bold;
+    margin: 0px 0px 0px 16px;
+}
+.left-side h2{
+    font-size: 34px;
+}
+
+.info{
+    background-image: url(Info.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    margin-top: 5em;
+    overflow-x: hidden;
+}
+.overlay{
+    opacity: .8;
+    background: #3bc053;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center; 
+    padding-top: 42px;
+    padding-bottom: 42px;
+    gap: 20px;
+    color: white;
+}
+.box1{
+    border: 1px solid white;
+    padding: 10px;
+    width: 10vw;
+}
+.box2{
+    border: 1px solid white;
+    padding: 10px;
+    width: 10vw;
+}
+.box3{
+    border: 1px solid white;
+    padding: 10px;
+    width: 10vw;
+}
+.box4{
+    border: 1px solid white;
+    padding: 10px;
+    width: 10vw;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* margin-top: 20px; */
+    padding-top: 4em;
+}
+.box {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(183, 178, 178, 0.13);
+    /* box-shadow: 4px 4px 4px 4px rgb(161, 158, 158); */
+    display: flex;
+    gap: 20px;
+}
+.box img{
+    height: 70vh;
+    width:25vw;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+    padding-left: 12px;
+    gap: 10px;
+}
+input{
+    height: 4vh;
+    width: 22vw;
+    padding-left: 12px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius:2px;
+}
+textarea{
+    width: 22vw;
+    height: 12vh;
+    padding-left: 12px;
+    padding-top: 12px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius:2px;
+}
+.send{
+    height: 6vh;
+    width: 11vw;
+    background-color:#86B15D;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
     display: flex;
     flex-direction: row;
