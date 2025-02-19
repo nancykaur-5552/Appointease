@@ -37,9 +37,9 @@ body{
     color:#1d548e;
 }
 .navbar .create-account{
-    background-color: #357edd;
+    background-color:#3573b5;
     color: white;
-    border-radius: 20px;
+    border-radius: 9px;
     padding: 10px 20px;
     cursor:pointer;
     border: none;
@@ -47,8 +47,8 @@ body{
 }
 .navbar .create-account:hover{
     border-radius: 0px;
-    background-color: green;
-    border:2px solid rgb(8, 41, 64);
+    background-color: rgb(34, 159, 34);
+    color: white;
 }
 .home-box {
 background-color: #3573b5;
@@ -166,33 +166,10 @@ margin-bottom: 5px;
 }
 .container{
     padding: 6px 16px;
-    /* background-color:#68a1deb2; */
 }
 .container p{
     margin-top: 12px;
 }
-/* .container button{
-    padding: 3px 12px;
-    border: 2px solid rgb(52, 55, 52);
-    border-radius: 7px;
-    background-color: rgb(68, 154, 68);
-    color: white;
-    margin-top: 9px;
-} */
-/* .container:hover{
-    background-color: rgb(68, 154, 68);
-    color: white; 
-} */
-
-/* .container:hover button{
-    background-color: #68a1de;
-    color: black;
-    border-radius: 0%;
-    cursor: pointer;
-} */
-/* .expert-section{
-    /* background-color: #a4bbd496; */
-/* }  */
 
 .footer{
     display: flex;

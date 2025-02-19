@@ -7,10 +7,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 15px;
+    /* padding-top: 15px;
     padding-left: 50px;
-    padding-right:50px;
+    padding-right:50px; */
     background-color: white;
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
 }
 .navbar .logo img{
     height: 100px;
@@ -32,13 +36,17 @@ body{
 .navbar .create-account{
     background-color: #357edd;
     color: white;
-    border-radius: 20px;
+    border-radius: 9px;
     padding: 10px 20px;
     cursor:pointer;
     border: none;
     font-size: 16px;
 }
-
+.navbar .create-account:hover{
+    border-radius: 0px;
+    background-color: rgb(34, 159, 34);
+    color: white;
+}
 .about{
     text-align: center;
     background-image: url(image.png);

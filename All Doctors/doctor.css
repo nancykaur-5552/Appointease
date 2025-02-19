@@ -7,8 +7,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 50px;
+    /* padding: 1px; */
+    position: sticky;
     background-color: white;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
 }
 .navbar .logo img{
     height: 100px;
@@ -30,12 +34,187 @@ body{
 .navbar .create-account{
     background-color: #357edd;
     color: white;
-    border-radius: 20px;
+    border-radius: 9px;
     padding: 10px 20px;
     cursor:pointer;
     border: none;
     font-size: 16px;
 }
+.navbar .create-account:hover{
+    border-radius: 0px;
+    background-color: rgb(34, 159, 34);
+    color: white;
+}
+.Doctors{
+    text-align: center;
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.banner{
+    padding-top: 7pc;
+}
+.banner h1{
+    color: white;
+}
+.banner a{
+    text-decoration: none;
+    color: white;
+}
+.banner .doctors{
+    color: rgb(34, 159, 34);
+}
+
+.expert{
+    padding-top: 4em;
+    text-align: center;
+}
+.expert>h2{
+    color: #357edd;
+}
+.expert>h1{
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+.expert img{
+    padding-top: 2px;
+    height: 23vh;
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 3em;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.doc1, .doc2, .doc3, .doc4, .doc5, .doc6, .doc7, .doc8{
+    width: 15vw;
+    padding: 29px;
+    box-shadow: 0 4px 5px 0 rgba(161, 158, 158, 0.282);
+}
+
+.doc1:hover{
+    color: white;
+    background-color: #357edd;
+}
+.doc2:hover{
+    color: white;
+    background-color: #357edd;
+}
+.doc3:hover{
+    color: white;
+    background-color: #357edd;
+}
+.doc4:hover{
+    color: white;
+    background-color: #357edd;
+}
+.doc5:hover{
+    color: white;
+    background-color: #357edd;
+}
+.doc6:hover{
+    color: white;
+    background-color: #357edd;
+}
+.doc7:hover{
+    color: white;
+    background-color: #357edd;
+}
+.doc8:hover{
+    color: white;
+    background-color: #357edd;
+}
+
+
+.image-wrapper .btn img{
+    background-color: #e12454;
+    border-radius: 50px;
+    padding: 12px;
+    position: absolute;
+    top: 50pc;
+    left: 17pc;
+    visibility: hidden;
+    z-index: 1;
+}
+.social-media img{
+    height: 23px;
+    width: 23px;
+}
+
+
+.appointment{
+    padding-top: 3em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.appointment span{
+    color: #357edd;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* margin-top: 20px; */
+    padding-top: 2em;
+}
+.box {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(183, 178, 178, 0.13);
+    /* box-shadow: 4px 4px 4px 4px rgb(161, 158, 158); */
+    display: flex;
+    gap: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+    padding-left: 12px;
+    gap: 10px;
+}
+input{
+    width: 24vw;
+    height: 7vh;
+    padding-left: 12px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius:2px;
+}
+textarea{
+    width: 24vw;
+    height: 20vh;
+    padding-left: 12px;
+    padding-top: 12px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius:2px;
+}
+.send{
+    height: 6vh;
+    width: 11vw;
+    background-color: rgb(34, 159, 34);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 .footer{
     display: flex;
     flex-direction: row;
