@@ -70,11 +70,15 @@ body{
 .expert{
     padding-top: 4em;
     text-align: center;
+    background-image: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.expert>h3{
+    color: #357edd;
+    font-size: 24px;
 }
 .expert>h2{
-    color: #357edd;
-}
-.expert>h1{
     font-size: 55px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
@@ -91,7 +95,7 @@ body{
     text-align: center;
     flex-wrap: wrap;
     gap: 40px;
-    padding-top: 3em;
+    padding-top: 1em;
     padding-left: 23px;
     padding-right: 23px;
 }
@@ -103,35 +107,43 @@ body{
 
 .doc1:hover{
     color: white;
-    background-color: #357edd;
+    background-color: #357eddc6;
+    border-radius: 40px;
 }
 .doc2:hover{
     color: white;
-    background-color: #357edd;
+    background-color: #357eddc6;
+    border-radius: 40px;
 }
 .doc3:hover{
     color: white;
-    background-color: #357edd;
+    background-color: #357eddc6;
+    border-radius: 40px;
 }
 .doc4:hover{
     color: white;
-    background-color: #357edd;
+    background-color: #357eddc6;
+    border-radius: 40px;
 }
 .doc5:hover{
     color: white;
-    background-color: #357edd;
+    background-color: #357eddc6;
+    border-radius: 40px;
 }
 .doc6:hover{
     color: white;
-    background-color: #357edd;
+    background-color: #357eddc6;
+    border-radius: 40px;
 }
 .doc7:hover{
     color: white;
-    background-color: #357edd;
+    background-color: #357eddc6;
+    border-radius: 40px;
 }
 .doc8:hover{
     color: white;
-    background-color: #357edd;
+    background-color: #357eddc6;
+    border-radius: 40px;
 }
 
 
@@ -151,7 +163,7 @@ body{
 }
 
 
-.appointment{
+/* .appointment{
     padding-top: 3em;
     text-align: center;
     justify-content: center;
@@ -159,7 +171,58 @@ body{
 }
 .appointment span{
     color: #357edd;
+} */
+
+
+.appoint{
+    background-color:#357eddd2;
+    height: 10vh;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.appoint h3{
+    padding-top: 25px; 
+}
+.appoint span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.appoint span:hover{
+    color:azure;
+}
+
+.container{
+    background-color: rgb(105, 218, 107); 
+}
+.experience{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    gap: 30px;
+    color: white;
+}
+.experience img{
+    height: 69px;
+    padding-left: 45px;
+}
+
+.experience h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 .form{
     display: flex;
     justify-content: center;

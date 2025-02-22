@@ -122,6 +122,24 @@
             </div>
         </div>
     </div>
+
+    <div class="contact">
+        <div class="row">
+            <div class="left-side">
+                <h3>Get in Touch</h3>
+                <h1>Best Medical & Health <br>Care Near Your City</h1>
+                <h4>We've 25 Years of experience in Medical Services.</h4>
+                <div class="buttons">
+                    <button class="cont" onclick="ContactBox()"><b>Contact Us | +</b></button>
+                    <button class="List" onclick="doctorBox()"><b>Doctors List | +</b></button>
+                </div>
+            </div>
+            <div class="right-side">
+                <img class="videoplay" src="play.gif" alt="play" onclick="playVideo()">
+            </div>
+        </div>
+    </div>
+
     <div class="foot">
         <div class="footer">
             <div class="column1">
@@ -161,9 +179,20 @@
     </div>
 
     <script>
-        function create(){
-            window.open('../Account/CreateAcc.html','_self');
+        function create() {
+            window.open('../Account/CreateAcc.html', '_self');
         }
+        function playVideo(){
+            let rightside = document.getElementsByClassName('videoplay');
+            rightside.innerHTML = `<iframe width ="560" height="315" src="https://www.youtube.com/watch?v=OSVA1FIQDOQ&list=PPSV&t=4s" frameborder="0" allowfullscreen></iframe>`;
+        }
+        function ContactBox() {
+            window.open('../Contact Us/contact.html','_self');
+        }
+        function doctorBox(){
+            window.open('../All Doctors/doctor.html','_self');
+        }
+
     </script>
 </body>
 
