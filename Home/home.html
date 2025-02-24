@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="home.css">
     <title>Doctor Appointment Booking</title>
 </head>
-
 <body>
     <nav class="navbar">
         <div class="logo">
@@ -21,12 +20,14 @@
         </div>
         <button class="create-account" onclick="create()">Create Account</button>
     </nav>
+
     <div class="home-box">
         <img src="../index.png" alt="Home image">
         <h1>Book Appointment <br>With Trusted Doctors</h1>
         <p>Simple browse through our extensive list of trusted doctors,<br>schedule your appointment hassle-free.</p>
         <button>BOOK APPOINTMENT </button>
     </div>
+
     <div class="speciality">
         <h2>Find by Speciality</h2>
         <p>Simply browse thorugh our extensive list of doctors, schedule <br>
@@ -48,13 +49,14 @@
             <h4>Gastroenterologist</h4>
             <h4>Dermatologist</h4>
         </div>
-    </div>
+    </div>c
+
     <div class="expert-section">
         <div class="content">
             <h1>Our Expert Doctors</h1>
         </div>
         <div class="doc">
-            <div class="cards">
+            <div class="cards" onclick="John()">
                 <img src="../All Doctors/pic1.png" alt="" height="250px" width="255px">
                 <div class="container">
                     <h3><b>Dr. John Doe</b></h3>
@@ -62,8 +64,7 @@
                     <p>M.D., MBBS</p>
                 </div>
             </div>
-
-            <div class="cards">
+            <div class="cards" onclick="Richard()">
                 <img src="../All Doctors/pic2.png" alt="" height="250px" width="255px">
                 <div class="container">
                     <h3><b>Dr. Richard James</b></h3>
@@ -71,7 +72,7 @@
                     <p>M.D., Doctor of Osteopathic</p>
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards" onclick="John2()">
                 <img src="../All Doctors/pic3.png" alt="" height="250px" width="255px">
                 <div class="container">
                     <h3><b>Dr. John Millar</b></h3>
@@ -79,7 +80,7 @@
                     <p>M.D., MBBS</p>
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards" onclick="Thersa()">
                 <img src="../All Doctors/pic4.png" alt="" height="250px" width="255px">
                 <div class="container">
                     <h3><b>Dr. Theresa Hamilton</b></h3>
@@ -87,8 +88,7 @@
                     <p>M.D., MBBS</p>
                 </div>
             </div>
-
-            <div class="cards">
+            <div class="cards" onclick="Brittany()">
                 <img src="../All Doctors/pic5.png" alt="" height="250px" width="255px">
                 <div class="container">
                     <h3><b>Dr. Brittany Robertson</b></h3>
@@ -96,7 +96,7 @@
                     <p>M.D., MBBS</p>
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards" onclick="Henry()">
                 <img src="../All Doctors/pic6.png" alt="" height="250px" width="255px">
                 <div class="container">
                     <h3><b>Dr. Henry Andrews</b></h3>
@@ -104,7 +104,7 @@
                     <p>M.D., MBBS</p>
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards" onclick="Raymond()">
                 <img src="../All Doctors/pic7.png" alt="" height="250px" width="255px">
                 <div class="container">
                     <h3><b>Dr. Raymond Payne</b></h3>
@@ -112,10 +112,10 @@
                     <p>M.D., MBBS</p>
                 </div>
             </div>
-            <div class="cards">
+            <div class="cards" onclick="Mukti()">
                 <img src="../All Doctors/pic8.png" alt="" height="250px" width="255px">
                 <div class="container">
-                    <h3><b>Dr. Rajnesh Sharma</b></h3>
+                    <h3><b>Dr. Mukti Sharma</b></h3>
                     <p>Orthopedist</p>
                     <p>M.D., MBBS</p>
                 </div>
@@ -179,12 +179,35 @@
     </div>
 
     <script>
+        function Mukti() {
+            window.open('../Dr. Mukti Sharma/Mukti.html','_self');
+        }
+        function Raymond(){
+            window.open('../Dr. Raymond Payne/Raymond.html','_self');
+        }
+        function Henry(){
+            window.open('../Dr. Henry Andrews/Henry.html','_self');
+        }
+        function Brittany() {
+            window.open('../Dr. Brittany Robertson/Brittany.html','_self');
+        }
+        function Thersa() {
+            window.open('../Dr. Theresa Hamilton/Thersa.html','_self');
+        }
+        function John2() {
+            window.open('../Dr. John Millar/John.html','_self');
+        }
+        function Richard() {
+            window.open('../Dr. Richard James/Richard.html','_self');
+        }
+        function John() {
+            window.open('../Dr. John Doe/JohnDoe.html','_self');
+        }
         function create() {
             window.open('../Account/CreateAcc.html', '_self');
         }
         function playVideo(){
-            let rightside = document.getElementsByClassName('videoplay');
-            rightside.innerHTML = `<iframe width ="560" height="315" src="https://www.youtube.com/watch?v=OSVA1FIQDOQ&list=PPSV&t=4s" frameborder="0" allowfullscreen></iframe>`;
+            window.open('https://www.youtube.com/watch?v=OSVA1FIQDOQ&list=PPSV','_self');
         }
         function ContactBox() {
             window.open('../Contact Us/contact.html','_self');
@@ -195,5 +218,4 @@
 
     </script>
 </body>
-
 </html>

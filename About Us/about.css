@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -18,6 +19,7 @@ body{
 }
 .navbar .logo img{
     height: 100px;
+    padding-left: 18px;
 }
 .navbar .navlinks{
     display: flex;
@@ -32,6 +34,9 @@ body{
 }
 .navbar .navlinks a:hover{
     color:#1d548e;
+}
+.navbar .button{
+    padding-right: 20px;
 }
 .navbar .create-account{
     background-color: #357edd;
@@ -132,7 +137,6 @@ body{
     background-size: cover;
     height: 30vh;
     margin-top: 5em;
-    overflow-x: hidden;
 }
 .overlay{
     opacity: .8;
@@ -219,6 +223,45 @@ textarea{
     color: white;
     cursor: pointer;
 }
+/* 
+.expert-section{
+    background-image: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* .content h1{
+    text-align: center;
+    padding-top: 1em;
+}
+.doc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 22px;
+    padding: 5em;
+    justify-items: center;
+}
+.cards {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 255px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+}
+.cards img{
+    padding: 23px;
+}
+.cards img:hover{
+    border-radius: 50%;
+}
+.cards:hover{
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius:23px;
+} */
+
+
+
 
 .footer{
     display: flex;

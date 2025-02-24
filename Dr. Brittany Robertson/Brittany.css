@@ -75,12 +75,13 @@ body {
     color: white;
 }
 
-.banner .doctors {
+.banner .doctor {
     color: rgb(34, 159, 34);
 }
 
 .container {
     padding-top: 3em;
+    padding-bottom: 3em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -133,17 +134,87 @@ body {
 
 .expert{
     padding-top: 3em;
-    
-    background-size: cover;
-    background-position: center;
+    text-align: center;
+    background-image: url(expertbg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.doctors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+}
+.doc{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.doc img{
+    height: 33vh;
+    border-radius:50%;
+}
+.doc img:hover{
+    transition: .3s;
+    transform: scale(0.9,0.9);
+    /* border-radius: 2px; */
+    /* border:2px solid white; */
+    box-shadow: 2px 5px 4px 5px white;
+
 }
 
 
-
-
-
-
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* margin-top: 20px; */
+    padding-top: 4em;
+}
+.form-img {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(183, 178, 178, 0.13);
+    /* box-shadow: 4px 4px 4px 4px rgb(161, 158, 158); */
+    display: flex;
+    gap: 20px;
+}
+.form-img img{
+    height: 70vh;
+    width:25vw;
+}
+.form-detail{
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+    padding-left: 12px;
+    gap: 10px;
+}
+input{
+    height: 4vh;
+    width: 22vw;
+    padding-left: 12px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius:2px;
+}
+textarea{
+    width: 22vw;
+    height: 12vh;
+    padding-left: 12px;
+    padding-top: 12px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius:2px;
+}
+.send{
+    height: 6vh;
+    width: 11vw;
+    background-color:#86B15D;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
 
 
 

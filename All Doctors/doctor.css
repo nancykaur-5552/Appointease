@@ -16,6 +16,7 @@ body{
 }
 .navbar .logo img{
     height: 100px;
+    padding-left: 23px;
 }
 .navbar .navlinks{
     display: flex;
@@ -30,6 +31,9 @@ body{
 }
 .navbar .navlinks a:hover{
     color:#1d548e;
+}
+.navbar .button{
+    padding-right: 23px;
 }
 .navbar .create-account{
     background-color: #357edd;
