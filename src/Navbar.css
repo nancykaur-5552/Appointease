@@ -1,0 +1,5 @@
+@import 'Tailwindcss'
+
+.navbar{
+    flex items-center justify-between px-[12px] py-px sticky bg-[white] top-[0] w-full
+}
