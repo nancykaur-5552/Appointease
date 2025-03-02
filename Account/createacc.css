@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 12px;
+    position: sticky;
+    background-color: white;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
+}
+.navbar .logo img{
+    height: 100px;
+}
+.navbar .navlinks{
+    display: flex;
+    gap: 30px;
+}
+.navbar .navlinks a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar .navlinks a:hover{
+    color:#1d548e;
+}
+.navbar .account{
+    background-color:#3573b5;
+    color: white;
+    border-radius: 9px;
+    padding: 10px 20px;
+    cursor:pointer;
+    border: none;
+    font-size: 16px;
+}
+.navbar .account:hover{
+    border-radius: 0px;
+    background-color: rgb(34, 159, 34);
+    color: white;
+}
+.acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-account {
+    background: #ffffff;
+    padding: 25px;
+    margin-top: 4em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #444;
+}
+form{
+    padding-top:2em;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.create {
+    width: 100%;
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create:hover {
+    background-color: #004b99;
+}
+
+.login{
+    padding-top: 2em;
+}

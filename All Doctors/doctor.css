@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1px; */
+    position: sticky;
+    background-color: white;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
+}
+.navbar .logo img{
+    height: 100px;
+    padding-left: 23px;
+}
+.navbar .navlinks{
+    display: flex;
+    gap: 30px;
+}
+.navbar .navlinks a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar .navlinks a:hover{
+    color:#1d548e;
+}
+.navbar .button{
+    padding-right: 23px;
+}
+.navbar .create-account{
+    background-color: #357edd;
+    color: white;
+    border-radius: 9px;
+    padding: 10px 20px;
+    cursor:pointer;
+    border: none;
+    font-size: 16px;
+}
+.navbar .create-account:hover{
+    border-radius: 0px;
+    background-color: rgb(34, 159, 34);
+    color: white;
+}
+.Doctors{
+    text-align: center;
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.banner{
+    padding-top: 7pc;
+}
+.banner h1{
+    color: white;
+}
+.banner a{
+    text-decoration: none;
+    color: white;
+}
+.banner .doctors{
+    color: rgb(34, 159, 34);
+}
+
+.expert{
+    padding-top: 4em;
+    text-align: center;
+    background-image: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.expert>h3{
+    color: #357edd;
+    font-size: 24px;
+}
+.expert>h2{
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+.expert img{
+    padding-top: 2px;
+    height: 23vh;
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 1em;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.doc1, .doc2, .doc3, .doc4, .doc5, .doc6, .doc7, .doc8{
+    width: 15vw;
+    padding: 29px;
+    box-shadow: 0 4px 5px 0 rgba(161, 158, 158, 0.282);
+}
+
+.doc1:hover{
+    color: white;
+    background-color: #357eddc6;
+    border-radius: 40px;
+}
+.doc2:hover{
+    color: white;
+    background-color: #357eddc6;
+    border-radius: 40px;
+}
+.doc3:hover{
+    color: white;
+    background-color: #357eddc6;
+    border-radius: 40px;
+}
+.doc4:hover{
+    color: white;
+    background-color: #357eddc6;
+    border-radius: 40px;
+}
+.doc5:hover{
+    color: white;
+    background-color: #357eddc6;
+    border-radius: 40px;
+}
+.doc6:hover{
+    color: white;
+    background-color: #357eddc6;
+    border-radius: 40px;
+}
+.doc7:hover{
+    color: white;
+    background-color: #357eddc6;
+    border-radius: 40px;
+}
+.doc8:hover{
+    color: white;
+    background-color: #357eddc6;
+    border-radius: 40px;
+}
+
+
+.image-wrapper .btn img{
+    background-color: #e12454;
+    border-radius: 50px;
+    padding: 12px;
+    position: absolute;
+    top: 50pc;
+    left: 17pc;
+    visibility: hidden;
+    z-index: 1;
+}
+.social-media img{
+    height: 23px;
+    width: 23px;
+}
+
+
+/* .appointment{
+    padding-top: 3em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.appointment span{
+    color: #357edd;
+} */
+
+
+.appoint{
+    background-color:#357eddd2;
+    height: 10vh;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.appoint h3{
+    padding-top: 25px; 
+}
+.appoint span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.appoint span:hover{
+    color:azure;
+}
+
+.container{
+    background-color: rgb(105, 218, 107); 
+}
+.experience{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    gap: 30px;
+    color: white;
+}
+.experience img{
+    height: 69px;
+    padding-left: 45px;
+}
+
+.experience h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* margin-top: 20px; */
+    padding-top: 2em;
+}
+.box {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(183, 178, 178, 0.13);
+    /* box-shadow: 4px 4px 4px 4px rgb(161, 158, 158); */
+    display: flex;
+    gap: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+    padding-left: 12px;
+    gap: 10px;
+}
+input{
+    width: 24vw;
+    height: 7vh;
+    padding-left: 12px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius:2px;
+}
+textarea{
+    width: 24vw;
+    height: 20vh;
+    padding-left: 12px;
+    padding-top: 12px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius:2px;
+}
+.send{
+    height: 6vh;
+    width: 11vw;
+    background-color: rgb(34, 159, 34);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left:72px ;
+    margin-right: 72px;
+    gap: 20px;
+}
+.column1{
+    width: 452px;
+    padding-top: 22px;
+}
+.column1 img{
+    height: 94px;
+    width: 119px;
+}
+.column1 p{
+    padding-top: 16px;
+    color: rgba(255, 255, 255, 0.722);
+}
+.column2{
+    width: 582px;
+    padding-top: 22px;
+}
+.column2 .detail{
+    margin-top:46px;
+    color: rgba(255, 255, 255, 0.722);
+}
+.column2 h2{
+    color: white;
+}
+.column3{padding-top: 22px;}
+.column3 h2{
+    color: white;
+}
+.column3 .link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 46px;
+    gap: 9px; 
+}
+.link a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.722);
+    cursor: pointer;
+}
+hr{
+    margin-top: 77px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-bottom{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-text p{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+.foot{
+    background-color: #0a1a3aba;
+    margin-top: 42px;
+}

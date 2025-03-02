@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../Logo1.PNG" alt="Appointease Logo">
+        </div>
+        <div class="navlinks">
+            <a href="../Home/home.html">Home</a>
+            <a href="../About Us/about.html">About Us</a>
+            <a href="../All Doctors/doctor.html">All Doctors</a>
+            <a href="../index.html">Contact Us</a>
+        </div>
+        <div class="button">
+            <button class="create-account" onclick="create()">Create Account</button>
+        </div>
+    </nav>
+
+    <div class="contact">
+        <div class="banner">
+            <h1>Contact Us</h1>
+            <a href="../Home/home.html">Home&nbsp;//</a>
+            <a href="../Contact Us/contact.html" class="contact">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="map">
+        <p><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.7183870318736!2d74.8891916754771!3d31.61417547417124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39197cb957eaf97d%3A0x2127b4207f6390e0!2sAmritsar%20Hospital!5e0!3m2!1sen!2sin!4v1739109912775!5m2!1sen!2sin"
+                width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+    <div class="card">
+        <div class="box1">
+            <img src="location.png" alt="Address">
+            <h3>ADDRESS</h3>
+            <p>JV7R+MPC, 100 Feet Rd, near Sultanwind Road, Sudarshan Nagar, Amritsar.
+            </p>
+        </div>
+        <div class="box2">
+            <img src="contacts.png" alt="Address">
+            <h3>CONTACT NUMBER</h3>
+            <p>+91-9087654323</p>
+        </div>
+        <div class="box3">
+            <img src="message.png" alt="Address">
+            <h3>EMAIL ADDRESS</h3>
+            <p>appointease@gmail.com</p>
+        </div>
+        <div class="box4">
+            <img src="internet.png" alt="Address">
+            <h3>WEBSITE</h3>
+            <p>Appointease.com</p>
+        </div>
+    </div>
+    <!-- <h2 class="touch">GET IN TOUCH</h2> -->
+    <div class="form">
+        <div class="box">
+            <img src="cont.avif" alt="Contact">
+            <form class="details">
+                <label for="Name"></label>
+                <input type="text" placeholder="Your Name">
+                <label for="Email"></label>
+                <input type="email" placeholder="Your Email">
+                <label for="Subject"></label>
+                <input type="text" placeholder="Subject">
+                <label for="message"></label>
+                <textarea placeholder="Message"></textarea>
+                <button class="send">Send Message</button>
+        </div>
+        </form>
+    </div>
+    <div class="foot">
+        <div class="footer">
+            <div class="column1">
+                <img src="../Logo1.PNG" alt="Logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam mollitia illum quaerat.
+                    Ullam
+                    impedit reprehenderit quidem! Labore aspernatur ducimus necessitatibus consequatur vero accusantium!
+                </p>
+            </div>
+            <div class="column2">
+                <h2>Contact</h2>
+                <div class="detail">
+                    <p><b>Address:</b>JV7R+MPC, 100 Feet Rd, near Sultanwind Road, Sudarshan Nagar, Amritsar.</p>
+                    <p><b>Phone:</b>+91-9087654323</p>
+                    <p><b>Email:</b>appointease@gmail.com</p>
+                </div>
+            </div>
+            <div class="column3">
+                <h2>Useful Links</h2>
+                <div class="link">
+                    <a href="../Home/home.html">Home</a>
+                    <a href="../About Us/about.html">About Us</a>
+                    <a href="../All Doctors/doctor.html">All Doctors</a>
+                    <a href="../Contact Us/contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Nancy | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home/.home-box"><img src="../up.png" alt="Upper Arrow"></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function create() {
+        window.open('../Account/CreateAcc.html', '_self');
+    }
+</script>
+
+</html>
